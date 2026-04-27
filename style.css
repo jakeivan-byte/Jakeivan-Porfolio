@@ -13,7 +13,7 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@ body {
     color: #38bdf8;
 }
 
-/* Hero Section */
+
 .hero {
     height: 80vh;
     display: flex;
@@ -74,7 +74,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Project Grid */
+
 .project-section {
     padding: 80px 10%;
 }
@@ -98,15 +98,14 @@ body {
     border-color: #0f172a;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 60px 10%;
-    background: #020617;
+    background: #000000;
 }
 
 .socials a {
-    color: #090c0d;
+    color: #eff0f0;
     margin: 0 10px;
     text-decoration: none;
 }
@@ -117,18 +116,21 @@ footer {
     color: #64748b;
 }
 .image-container {
-    display: flex;          /* Pinagkakatabi ang mga images */
-    gap: 20px;             /* Space sa pagitan ng mga images */
-    justify-content: center; /* Nilalagay sa gitna ng page */
-    flex-wrap: wrap;       /* Kapag masikip na sa screen, kusa itong bababa */
+    display: flex;          
+    gap: 20px;             
+    justify-content: center;
+    flex-wrap: wrap;       
 }
 
 .gallery-img {
-    width: 500px;          /* Fixed width para pantay-pantay */
+    width: 500px;          
     height: 300px;
-    object-fit: cover;     /* Hindi mapipitpit ang image */
+    object-fit: cover;     
     border-radius: 10px;
 }
 .span{
     color: #0f172a;
+}
+.a{
+    color: aliceblue;
 }
