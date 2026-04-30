@@ -136,10 +136,10 @@ footer {
 }
 
 .skill-img {
-    width: 300px;
+    width: 200px;
     height: auto;
     margin-bottom: 50px;
-    /* Optional: Glow effect para sa image */
+
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2));
     
 }
@@ -160,8 +160,52 @@ footer {
     display: flex;                       
     justify-content: left;
     flex-wrap: wrap;
-    padding: 60px 10%;  /* 60px sa taas/baba, 10% sa gilid para hindi dikit sa screen */
+    padding: 60px 10%;  
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-content h6 {
+    margin: 10px 0;
+}
+
+.high-light {
+    color: #040505; 
+    font-size: 3rem; 
+    font-weight: 800;
+}
+
+.description {
+    max-width: 1000px;
+    line-height: 1.6;
+    color: #090f16; 
+    margin-bottom: 20px;
+    font-size: 1.5rem; 
+    font-weight: 500;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #38bdf8;
+}
+ .greeting{
+    font-size: 1.5rem;
+    font-weight: 800;
+ }
