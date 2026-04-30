@@ -153,6 +153,6 @@ footer {
 
 .skill{
     display: flex;                       
-    justify-content: center;
+    justify-content:20 left;
     flex-wrap: wrap;
 }
