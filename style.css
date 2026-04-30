@@ -105,7 +105,7 @@ footer {
 }
 
 .socials a {
-    color: #eff0f0;
+    color: #afdbdb;
     margin: 0 10px;
     text-decoration: none;
 }
@@ -124,7 +124,7 @@ footer {
 
 .gallery-img {
     width: 500px;          
-    height: 300px;
+    height: 200px;
     object-fit: cover;     
     border-radius: 10px;
 }
@@ -133,4 +133,26 @@ footer {
 }
 .a{
     color: aliceblue;
+}
+
+.skill-img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 50px;
+    /* Optional: Glow effect para sa image */
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.2));
+    
+}
+
+.skill-card{
+    display: flex;          
+    gap: 20px;             
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill{
+    display: flex;                       
+    justify-content: center;
+    flex-wrap: wrap;
 }
