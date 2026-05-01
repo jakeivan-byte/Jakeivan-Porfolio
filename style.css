@@ -218,6 +218,10 @@ footer {
     gap: 30px;              /* Space sa pagitan ng bawat skill */
     padding: 20px 10%;
     align-items: flex-start; /* Naka-align sa kaliwa */
+    align-items: flex-end; 
+    gap: 40px;
+    padding: 40px 20px;
+    justify-content: center;
 }
 
 /* Bawat isang logo at bar group */
@@ -226,6 +230,7 @@ footer {
     flex-direction: column; /* Image sa taas, Bar sa baba */
     align-items: center;    /* Center ang logo at bar sa loob ng item */
     width: 200px;           /* Haba ng loading bar */
+    align-items: center;
 }
 
 .skill-img {
